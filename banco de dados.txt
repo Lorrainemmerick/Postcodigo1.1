@@ -1,0 +1,12 @@
+create database confeitaria;
+use confeitaria;
+
+create table cadastro(
+    idpf int not null auto_increment,
+    nome varchar (40)  not  null,
+    email varchar (45) not null,
+    telefone int not null,
+    cpf int not null,
+    senha varchar (45) not null,
+  primary key (idpf)
+    );
